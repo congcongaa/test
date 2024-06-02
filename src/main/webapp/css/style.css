@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#title{
+   font-size:30px;
+   color: maroon;
+}
+table.table{
+   border-collapse: collapse;
+   width:600px;
+   margin: 0 auto;
+}
+table.table th, table.table td{
+   border: 1px solid navy;
+   padding: 4px;
+   font-size: 11px;
+}
+input[type=number]{
+   width: 30px;
+}
+.txt_c{text-align: center}
+a:link{text-decoration:none; color:navy}
+/* a태그가 하이퍼링크라 파란색으로 나오는데 그걸 지우기 위함 */
+a:visited{text-decoration:none; color:navy}
+/* a태그가 한번 클릭하면 갈색으로 나오는데 그걸 지우기 위함 */
+a:hover{text-decoration:none; color:red}
